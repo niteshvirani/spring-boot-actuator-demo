@@ -1,0 +1,20 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+  info:
+    build:
+      enabled: true
+    env:
+      enabled: false
+    git:
+      enabled: true
+      mode: full
+    java:
+      enabled: false
+    os:
+      enabled: true
